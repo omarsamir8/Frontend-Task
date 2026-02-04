@@ -84,7 +84,7 @@ export default function RegisterPage() {
         <input
           type="text"
           name="mobile"
-          placeholder="Phone Number"
+          placeholder="Phone Number started with +20"
           onChange={handleChange}
           required
         />
