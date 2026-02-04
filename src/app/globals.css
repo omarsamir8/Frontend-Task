@@ -52,3 +52,11 @@ a {
 .registerPage form button:hover{
   transform: scale(.98);
 }
+@media (max-width: 576px) {
+  .registerPage form input{
+    width: 100%;
+  }
+  .registerPage form button{
+    width: 100%;
+  }
+}
